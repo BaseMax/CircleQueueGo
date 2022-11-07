@@ -15,6 +15,10 @@ type CircleQueue struct {
 	front int
 }
 
+func NewCircleQueue(size int) *CircleQueue {
+	return &CircleQueue{data: make([]interface{}, size), rear: 0, front: 0}
+}
+
 func (q *CircleQueue) IsFull() bool {
 	return (q.rear+1)%len(q.data) == q.front
 }
@@ -56,8 +60,4 @@ func (q *CircleQueue) String() string {
 		result += fmt.Sprintf("%v ", q.data[i])
 	}
 	return result
-}
-
-func NewCircleQueue(size int) *CircleQueue {
-	return &CircleQueue{data: make([]interface{}, size), rear: 0, front: 0}
 }
