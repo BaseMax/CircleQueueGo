@@ -5,7 +5,7 @@ The **Circle Queue** implementation in Go. The circle queue is a special version
 ## Installation
 
 ```bash
-go get github.com/akshaybabloo/circle-queue-go
+go get github.com/BaseMax/CircleQueueGo
 ```
 
 ## Usage
