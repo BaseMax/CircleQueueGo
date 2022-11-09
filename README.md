@@ -15,7 +15,6 @@ package main
 
 import "fmt"
 
-// Main function
 func main() {
 	q := NewCircleQueue(5)
 
