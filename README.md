@@ -1,6 +1,6 @@
 # Circle Queue Go (CircleQueueGo)
 
-The **Circle Queue** implementation in Go. The circle queue is a special version of queue where the last element of the queue is connected to the first element of the queue forming a circle. The operations are performed based on **FIFO** (First In First Out) principle. It is also called **'Ring Buffer'**.
+The **Circle Queue** implementation in Go. The circle queue is a special version of a queue where the last element of the queue is connected to the first element of the queue forming a circle. The operations are performed based on **FIFO** (First In First Out) principle. It is also called **'Ring Buffer'**.
 
 ## Installation
 
